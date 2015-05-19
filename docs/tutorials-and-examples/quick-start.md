@@ -17,11 +17,12 @@ Using Composer
 
 You can install this plugin into your CakePHP application using composer.
 
-The recommended way to install composer packages is:
+    "require": {
+        "cakemanager/cakephp-posttypes":  "~1.0"
+    }
 
-        composer require cakemanager/cakephp-posttypes:1.0.x-dev
+Each time you run php composer.phar update you will receive the latest stable releases when using the default version constraint ~1.0. Only bugfix and minor version releases of 1.x will be used when updating.
 
-For the stable use, use the `1.0` branch.
 
 Loading the plugin
 -------------
