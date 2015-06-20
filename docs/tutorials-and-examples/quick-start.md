@@ -71,7 +71,7 @@ called by the `PostTypesComponent`.
 
         public function initPostTypes()
         {
-            $this->loadModel('CakeManager.Users');
+            $this->loadModel(Configure::read('CM.UserModel'));
  
             $this->PostTypes->register('Blogs', [
                 'menu' => true,
